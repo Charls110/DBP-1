@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; margin: 0; padding: 0; background-color: #d3d3d3;">
+
+<div style="background-color: #333; color: #fff; padding: 1rem; text-align: center;">
+    <h1 style="margin: 0;">Bienvenido a Mi Portafolio</h1>
+    <div style="margin-top: 0.5rem;">
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="display: inline; margin: 0 10px;"><a href="#sobre-mi" style="color: #fff; text-decoration: none;">Sobre mí</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#habilidades" style="color: #fff; text-decoration: none;">Habilidades y Competencias</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#proyectos" style="color: #fff; text-decoration: none;">Galería de Proyectos</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#contacto" style="color: #fff; text-decoration: none;">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="padding: 20px;">
+
+    <div id="inicio" style="margin-bottom: 2rem; padding: 1rem; background-color: #fff; border-radius: 5px;">
+        <h2 style="border-bottom: 2px solid #333; padding-bottom: 0.5rem;">Presentación</h2>
+        <p>
+            Hola que tal soy una persona que le gusta mucho la tecnología y hablar sobre comidas típicas , este es mi portafolio personal aquí conocerás un poco sobre mí, mis cualidades, habilidades y las cosas que más me gustan hacer durante el día a día. 
+            Aquí encontrarás cómo puedes contactarme, información más personal y muchas cosas. Pásate por las diferentes secciones, como: sobre mí, habilidades, mis proyectos que he realizado y para que me puedas contactar.
+        </p>
+        <img src="logoutb.png" alt="Foto mía" style="display: block; margin: 1rem auto; border-radius: 5px; max-width: 100%; height: auto;" align="right"/>
+    </div>
+
+    <div id="sobre-mi" style="margin-bottom: 2rem; padding: 1rem; background-color: #fff; border-radius: 5px;">
+        <h2 style="border-bottom: 2px solid #333; padding-bottom: 0.5rem;">Sobre mí</h2>
+        <p> Hola, me llamo Bryan. Soy estudiante de la UTB y actualmente me encuentro estudiando en la jornada matutina. Vivo en Babahoyo y me dedico un poco al desarrollo web, voy aprendiendo poco a poco. Soy una persona que le gusta ver películas, involucrarse en nuevos proyectos de tecnología, estar informado sobre innovaciones, además de disfrutar de la música y la cocina, especialmente en recetas de asados.</p>
+        <p>He realizado proyectos como páginas web con pequeños sistemas de base de datos para almacenar información de inicios de sesión de los clientes. También sé de ensamblaje de computadoras, he montado mi propio CPU para uso doméstico y académico. Asimismo, he hecho instalaciones de redes en una tienda, asegurando cobertura en todas las áreas. Estas son algunas de mis habilidades actuales, aunque sé que tengo mucho por aprender.</p>
+    </div>
+
+    <div id="habilidades" style="margin-bottom: 2rem; padding: 1rem; background-color: #fff; border-radius: 5px;">
+        <h2 style="border-bottom: 2px solid #333; padding-bottom: 0.5rem;">Habilidades y Competencias</h2>
+        <ul style="list-style-type: square; padding-left: 20px;">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Desarrollo de aplicaciones web</li>
+            <li>Cocinero</li>
+            <li>Práctico deporte</li>
+            <li>Músico</li>
+            <li>Conductor de drones</li>
+        </ul>
+        <h3>Lenguajes de programación</h3>
+        <ol style="padding-left: 20px;">
+            <li>Java</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Wamp Server</li>           
+        </ol>
+    </div>
+
+    <div id="proyectos" style="margin-bottom: 2rem; padding: 1rem; background-color: #fff; border-radius: 5px;">
+        <h2 style="border-bottom: 2px solid #333; padding-bottom: 0.5rem;">Galería de Proyectos</h2>
+        <div style="margin-bottom: 1rem;">
+            <h3>Proyecto 1</h3>
+            <p>Este proyecto fue un modelo base de un pequeño sistema automatizado de riego a una planta, hecho con Arduino y programado en C++. El sistema funciona automáticamente, activando una bomba de agua al detectar que la tierra está seca.</p>
+            <img src="proyecto1.png" alt="Foto del Proyecto 1" style="display: block; margin: 1rem auto; border-radius: 5px; max-width: 100%; height: auto;" />
+        </div>
+        <div>
+            <h3>Proyecto 2</h3>
+            <p>Este proyecto es un sensor de movimiento hecho con Arduino. Al detectar movimiento, puede activar una luz LED o alarma. Útil para seguridad o iluminación automática.</p>
+            <img src="proyecto2.png" alt="Foto del Proyecto 2" style="display: block; margin: 1rem auto; border-radius: 5px; max-width: 100%; height: auto;" />
+        </div>
+    </div>
+
+    <div id="contacto" style="margin-bottom: 2rem; padding: 1rem; background-color: #fff; border-radius: 5px;">
+        <h2 style="border-bottom: 2px solid #333; padding-bottom: 0.5rem;">Contacto</h2>
+        <form action="#" method="post" style="display: grid; gap: 10px;">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required style="padding: 5px; border-radius: 5px;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="padding: 5px; border-radius: 5px;">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required style="padding: 5px; border-radius: 5px;"></textarea>
+            <input type="submit" value="Enviar" style="background-color: #333; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
+        </form>
+    </div>
+
+</div>
+
+<div style="padding: 20px;">
+    <h2>Datos de Interés</h2>
+    <table style="width: 100%; border-collapse: collapse; background-color: #fff;">
+        <tr>
+            <th style="padding: 10px; border: 1px solid #ddd;">Dato</th>
+            <th style="padding: 10px; border: 1px solid #ddd;">Información</th>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ddd;">Ubicación</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Babahoyo, 10 de agosto y Eloy Alfaro</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ddd;">Experiencia</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Trabajos en tecnología, mesero en El Rumano, asistente en supermercado 6 meses, trabajador en Tia 1 año</td>
+        </tr>
+    </table>
+</div>
+
+<div style="background-color: #333; color: #fff; text-align: center; padding: 1rem;">
+    <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados UTB.</p>
+</div>
+
+</body>
+</html>
